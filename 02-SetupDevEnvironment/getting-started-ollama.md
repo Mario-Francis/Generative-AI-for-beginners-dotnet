@@ -4,7 +4,7 @@ If you want to use Ollama to run local models for this course, follow the steps 
 
 Don't want to use Azure OpenAI?
 
-👉 [To use GitHub Models this is the guide for you](README.md)
+👉 [To use GitHub Models this is the guide for you](./readme.md)
 👉 [Here are the steps for Ollama](getting-started-ollama.md)
 
 ## Creating a GitHub Codespace
@@ -63,7 +63,7 @@ Once your Codespace is fully loaded and configured, let's run a sample app to ve
 
 ## Swap out the model in Ollama
 
-One of the cool things about Ollama is that it's easy to change models. The current app uses the "**llama3.2**" model. Let’s switch it up and try the "**phi3.5**" model instead.
+One of the cool things about Ollama is that it's easy to change models. The sample apps uses models like "**phi4-mini**" or "**llama3.2**" model. Let’s switch it up and try the "**phi3.5**" model instead.
 
 1. Download the Phi3.5 model by running the command from the terminal:
 
@@ -93,8 +93,6 @@ One of the cool things about Ollama is that it's easy to change models. The curr
     1. **Narrow AI** – Designed for specific tasks, such as facial recognition software, voice assistants like Siri or Alexa, autonomous vehicles, etc., which operate under a limited preprogrammed set of behaviors and rules but excel within their domain when compared to humans in these specialized areas.
 
     2. **General AI** – Capable of understanding, learning, and applying intelligence broadly across various domains like human beings do (natural language processing, problem-solving at a high level). General AIs are still largely theoretical as we haven't yet achieved this form to the extent necessary for practical applications beyond narrow tasks.
-    
-    ...
     ```
 
 > 🙋 **Need help?**: Something not working? [Open an issue](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/issues/new?template=Blank+issue) and we'll help you out.
@@ -107,7 +105,7 @@ In this lesson, you learned how to set up your development environment for the r
 
 - [Ollama Models](https://ollama.com/search)
 - [Working with GitHub Codespaces](https://docs.github.com/en/codespaces/getting-started)
-- [Microsoft Extensions for AI Documentation](https://learn.microsoft.com/en-us/dotnet/)
+- [Microsoft Extensions for AI Documentation](https://learn.microsoft.com/dotnet/)
 
 ## Next Steps
 

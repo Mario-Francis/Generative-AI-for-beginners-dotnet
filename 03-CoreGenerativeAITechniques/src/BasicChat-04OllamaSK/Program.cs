@@ -5,7 +5,7 @@ using System.Text;
 using Microsoft.SemanticKernel.Connectors.Ollama;
 using OllamaSharp;
 
-var modelId = "llama3.2";
+var modelId = "phi4-mini";
 var uri = "http://localhost:11434/";
 
 
@@ -28,7 +28,7 @@ while (true)
 
     var sb = new StringBuilder();
     var result = chat.GetStreamingChatMessageContentsAsync(history);
-    Console.Write("AI: ");
+    Console.Write($"AI [{modelId}]: ");
     await foreach (var item in result)
     {
         sb.Append(item);

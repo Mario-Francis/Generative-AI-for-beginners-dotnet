@@ -152,7 +152,7 @@ conversation.Add(new ChatMessage(ChatRole.User, query)); // this is the user pro
 // add the search results to the conversation
 await foreach (var result in searchResults.Results)
 {
-    conversation.Add(new ChatMessage(ChatRole.User, $"This move is playing nearby: {result.Record.Title} and it's about {result.Record.Description}"));
+    conversation.Add(new ChatMessage(ChatRole.User, $"This movie is playing nearby: {result.Record.Title} and it's about {result.Record.Description}"));
 }
 
 // send the conversation to the model
@@ -171,6 +171,11 @@ Console.WriteLine($"Bot:> {response.Message.Text});
 
 - [GenAI for Beginners: RAG and Vector Databases](https://github.com/microsoft/generative-ai-for-beginners/blob/main/15-rag-and-vector-databases/README.md)
 - [Build a .NET Vector AI Search App](https://learn.microsoft.com/dotnet/ai/quickstarts/quickstart-ai-chat-with-data?tabs=azd&pivots=openai)
+
+### Community resources
+
+- [AI Chatbot with Retrieval-Augmented Generation (RAG) for .NET](https://github.com/AsterixBG/my-first-ai-ragbot)
+- [StructRAG, the groundbreaking framework for transforming raw data into structured knowledge to boost Retrieval-Augmented Generation (RAG) performance](https://www.youtube.com/watch?v=O7Ce3YljyIY)
 
 ## Next up
 

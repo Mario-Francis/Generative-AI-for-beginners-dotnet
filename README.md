@@ -1,6 +1,6 @@
 # Generative AI for Beginners .NET - A Course
 
-### Practical lessons teaching you how to build Generative AI applications in .NET
+## Practical lessons teaching you how to build Generative AI applications in .NET
 
 [![GitHub license](https://img.shields.io/github/license/microsoft/Generative-AI-For-beginners-dotnet.svg)](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/main/LICENSE)
 [![GitHub contributors](https://img.shields.io/github/contributors/microsoft/Generative-AI-For-Beginners-Dotnet.svg)](https://github.com/microsoft/Generative-AI-For-Beginners-Dotnet/graphs/contributors/)
@@ -25,6 +25,16 @@ This is **hands-on**, **practical**, and designed to be **fun**!
 Don't forget to [star (🌟) this repo](https://docs.github.com/en/get-started/exploring-projects-on-github/saving-repositories-with-stars) to find it easier later. 
 
 ➡️Get your own copy by [Forking this repo](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/fork) and find it next in your own repositories.
+
+## ✨ What's New!
+
+We're constantly improving this course with the latest AI tools and models:
+
+- **phi4-mini model support**: The [Ollama Codespace](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/main/02-SetupDevEnvironment/getting-started-ollama.md) now automatically downloads the [phi4-mini model](https://ollama.com/library/phi4-mini) - Microsoft's compact yet powerful LLM. Try it in samples like:
+  - [Chat Application](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/main/03-CoreGenerativeAITechniques/src/BasicChat-03Ollama/Program.cs) - Experience fast responses with this efficient model
+  - [RAG Implementation](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/blob/main/03-CoreGenerativeAITechniques/src/RAGSimple-10SKOllama/Program.cs) - See how phi4-mini handles retrieval-augmented generation tasks
+  - Learn more about the model in the [Phi Cookbook](https://aka.ms/phicookbook)
+
 
 ## 🚀 Introduction
 
@@ -100,7 +110,8 @@ Contributions are welcome! Here's how you can help:
 - Suggest additional lessons or enhancements.
 - Do you have suggestions or found spelling or code errors?, [create a pull request](https://github.com/microsoft/Generative-AI-for-beginners-dotnet/compare)
 
-Check the [CONTRIBUTING.md](./CONTRIBUTING.md) file for details on how to get involved.
+Check the [CONTRIBUTING.MD](./CONTRIBUTING.MD) file for details on how to get involved.
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
@@ -110,10 +121,10 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 We have a lot of other content to help your learning journey. Check out:
 
 - [Generative AI for Beginners](https://aka.ms/genai-beginners)
-- [Generative AI for Beginners .NET](https://github.com/microsoft/Generative-AI-for-beginners-dotnet)
-- [Generative AI with JavaScript](https://github.com/microsoft/generative-ai-with-javascript)
+- [Generative AI for Beginners .NET](https://aka.ms/genainet)
+- [Generative AI with JavaScript](https://aka.ms/genai-js-course)
 - [AI for Beginners](https://aka.ms/ai-beginners)
-- [AI Agents for Beginners - A Course](https://github.com/microsoft/ai-agents-for-beginners)
+- [AI Agents for Beginners - A Course](https://aka.ms/ai-agents-beginners)
 - [Data Science for Beginners](https://aka.ms/datascience-beginners)
 - [ML for Beginners](https://aka.ms/ml-beginners)
 - [Cybersecurity for Beginners](https://github.com/microsoft/Security-101) 
@@ -123,5 +134,6 @@ We have a lot of other content to help your learning journey. Check out:
 - [Mastering GitHub Copilot for Paired Programming](https://github.com/microsoft/Mastering-GitHub-Copilot-for-Paired-Programming)
 - [Mastering GitHub Copilot for C#/.NET Developers](https://github.com/microsoft/mastering-github-copilot-for-dotnet-csharp-developers)
 - [Choose Your Own Copilot Adventure](https://github.com/microsoft/CopilotAdventures)
+- [Phi Cookbook: Hands-On Examples with Microsoft's Phi Models](https://aka.ms/phicookbook)
 
 [Let's start learning Generative AI and .NET!](02-SetupDevEnvironment/readme.md) 🚀
